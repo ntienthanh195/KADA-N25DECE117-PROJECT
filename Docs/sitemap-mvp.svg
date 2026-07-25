@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1280" viewBox="0 0 2048 1280">
+  <defs>
+    <style>
+      .title { font: 700 50px Arial, "Segoe UI", sans-serif; fill: #172033; }
+      .subtitle { font: 400 25px Arial, "Segoe UI", sans-serif; fill: #536078; }
+      .section { font: 700 28px Arial, "Segoe UI", sans-serif; fill: #26334c; }
+      .node-title { font: 700 23px Arial, "Segoe UI", sans-serif; fill: #172033; }
+      .node-sub { font: 400 19px Arial, "Segoe UI", sans-serif; fill: #536078; }
+      .legend { font: 600 20px Arial, "Segoe UI", sans-serif; fill: #344158; }
+      .box { stroke-width: 2.5; rx: 18; }
+      .public { fill: #eef4ff; stroke: #7093d4; }
+      .user { fill: #edfbf4; stroke: #53a878; }
+      .admin { fill: #fff4e8; stroke: #d58a3a; }
+      .result { fill: #f4efff; stroke: #8b6dc7; }
+      .line { fill: none; stroke: #738096; stroke-width: 3; marker-end: url(#arrow); }
+      .divider { stroke: #d6dce7; stroke-width: 2; stroke-dasharray: 10 10; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#738096"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#18243a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="2048" height="1280" fill="#ffffff"/>
+  <text x="1024" y="75" text-anchor="middle" class="title">SITEMAP MVP — WEBSITE HỖ TRỢ SỬA ĐỒ GIA DỤNG BẰNG AI</text>
+  <text x="1024" y="116" text-anchor="middle" class="subtitle">Bản đồ các trang và đường điều hướng trong phiên bản hoàn thành trong 5 tuần</text>
+
+  <g transform="translate(1210,142)">
+    <rect x="0" y="0" width="24" height="24" rx="6" class="public"/>
+    <text x="36" y="20" class="legend">Trang công khai</text>
+    <rect x="235" y="0" width="24" height="24" rx="6" class="user"/>
+    <text x="271" y="20" class="legend">Người dùng</text>
+    <rect x="430" y="0" width="24" height="24" rx="6" class="admin"/>
+    <text x="466" y="20" class="legend">Quản trị viên</text>
+  </g>
+
+  <!-- Public pages -->
+  <rect x="844" y="180" width="360" height="84" class="box public" filter="url(#shadow)"/>
+  <text x="1024" y="216" text-anchor="middle" class="node-title">TRANG CHỦ</text>
+  <text x="1024" y="246" text-anchor="middle" class="node-sub">Giới thiệu và bắt đầu sử dụng</text>
+
+  <rect x="320" y="320" width="290" height="84" class="box public"/>
+  <text x="465" y="356" text-anchor="middle" class="node-title">ĐĂNG KÝ</text>
+  <text x="465" y="386" text-anchor="middle" class="node-sub">Tạo tài khoản mới</text>
+
+  <rect x="879" y="320" width="290" height="84" class="box public"/>
+  <text x="1024" y="356" text-anchor="middle" class="node-title">ĐĂNG NHẬP</text>
+  <text x="1024" y="386" text-anchor="middle" class="node-sub">Người dùng hoặc admin</text>
+
+  <rect x="1438" y="320" width="290" height="84" class="box public"/>
+  <text x="1583" y="356" text-anchor="middle" class="node-title">CÁCH HOẠT ĐỘNG</text>
+  <text x="1583" y="386" text-anchor="middle" class="node-sub">Có thể là phần của Trang chủ</text>
+
+  <path d="M 920 264 C 810 286, 610 286, 465 320" class="line"/>
+  <path d="M 1024 264 L 1024 320" class="line"/>
+  <path d="M 1128 264 C 1240 286, 1430 286, 1583 320" class="line"/>
+
+  <!-- Lane labels -->
+  <line x1="1024" y1="455" x2="1024" y2="1215" class="divider"/>
+  <text x="70" y="488" class="section">KHU VỰC NGƯỜI DÙNG</text>
+  <text x="1090" y="488" class="section">KHU VỰC QUẢN TRỊ</text>
+
+  <!-- User area -->
+  <rect x="330" y="520" width="400" height="90" class="box user" filter="url(#shadow)"/>
+  <text x="530" y="558" text-anchor="middle" class="node-title">TỔNG QUAN NGƯỜI DÙNG</text>
+  <text x="530" y="589" text-anchor="middle" class="node-sub">Điểm vào sau khi đăng nhập</text>
+
+  <path d="M 465 404 C 465 455, 500 472, 515 520" class="line"/>
+  <path d="M 958 404 C 890 450, 650 450, 550 520" class="line"/>
+
+  <rect x="80" y="685" width="300" height="84" class="box user"/>
+  <text x="230" y="721" text-anchor="middle" class="node-title">CHẨN ĐOÁN MỚI</text>
+  <text x="230" y="751" text-anchor="middle" class="node-sub">Bắt đầu quy trình AI</text>
+
+  <rect x="405" y="685" width="300" height="84" class="box user"/>
+  <text x="555" y="721" text-anchor="middle" class="node-title">LỊCH SỬ CHẨN ĐOÁN</text>
+  <text x="555" y="751" text-anchor="middle" class="node-sub">Xem lại các kết quả cũ</text>
+
+  <rect x="730" y="685" width="250" height="84" class="box user"/>
+  <text x="855" y="721" text-anchor="middle" class="node-title">HỒ SƠ</text>
+  <text x="855" y="751" text-anchor="middle" class="node-sub">Thông tin cá nhân</text>
+
+  <path d="M 470 610 C 405 635, 300 642, 230 685" class="line"/>
+  <path d="M 530 610 L 555 685" class="line"/>
+  <path d="M 590 610 C 680 635, 790 645, 855 685" class="line"/>
+
+  <rect x="80" y="835" width="300" height="84" class="box user"/>
+  <text x="230" y="871" text-anchor="middle" class="node-title">NHẬP THIẾT BỊ</text>
+  <text x="230" y="901" text-anchor="middle" class="node-sub">Loại, hãng và model</text>
+
+  <rect x="80" y="980" width="300" height="84" class="box user"/>
+  <text x="230" y="1016" text-anchor="middle" class="node-title">TRIỆU CHỨNG + ẢNH</text>
+  <text x="230" y="1046" text-anchor="middle" class="node-sub">Gửi dữ liệu để phân tích</text>
+
+  <rect x="430" y="980" width="390" height="104" class="box result" filter="url(#shadow)"/>
+  <text x="625" y="1018" text-anchor="middle" class="node-title">KẾT QUẢ TỪ AI</text>
+  <text x="625" y="1048" text-anchor="middle" class="node-sub">Nguyên nhân · Mức nguy hiểm</text>
+  <text x="625" y="1073" text-anchor="middle" class="node-sub">Kiểm tra an toàn · Có cần gọi thợ?</text>
+
+  <path d="M 230 769 L 230 835" class="line"/>
+  <path d="M 230 919 L 230 980" class="line"/>
+  <path d="M 380 1022 L 430 1022" class="line"/>
+
+  <rect x="365" y="1140" width="280" height="75" class="box user"/>
+  <text x="505" y="1174" text-anchor="middle" class="node-title">ĐÃ XỬ LÝ ĐƯỢC</text>
+  <text x="505" y="1201" text-anchor="middle" class="node-sub">Gửi phản hồi thành công</text>
+
+  <rect x="675" y="1140" width="280" height="75" class="box user"/>
+  <text x="815" y="1174" text-anchor="middle" class="node-title">CHƯA XỬ LÝ ĐƯỢC</text>
+  <text x="815" y="1201" text-anchor="middle" class="node-sub">Gửi phản hồi chưa thành công</text>
+
+  <path d="M 580 1084 C 565 1105, 530 1115, 505 1140" class="line"/>
+  <path d="M 670 1084 C 705 1105, 780 1115, 815 1140" class="line"/>
+
+  <rect x="430" y="835" width="250" height="84" class="box user"/>
+  <text x="555" y="871" text-anchor="middle" class="node-title">CHI TIẾT LỊCH SỬ</text>
+  <text x="555" y="901" text-anchor="middle" class="node-sub">Mở lại kết quả đã lưu</text>
+  <path d="M 555 769 L 555 835" class="line"/>
+
+  <!-- Admin area -->
+  <rect x="1315" y="520" width="400" height="90" class="box admin" filter="url(#shadow)"/>
+  <text x="1515" y="558" text-anchor="middle" class="node-title">TRANG QUẢN TRỊ</text>
+  <text x="1515" y="589" text-anchor="middle" class="node-sub">Chỉ tài khoản admin truy cập</text>
+  <path d="M 1090 404 C 1190 455, 1420 470, 1490 520" class="line"/>
+
+  <rect x="1085" y="685" width="280" height="100" class="box admin"/>
+  <text x="1225" y="721" text-anchor="middle" class="node-title">DANH MỤC</text>
+  <text x="1225" y="750" text-anchor="middle" class="node-sub">Thêm, sửa loại thiết bị</text>
+  <text x="1225" y="775" text-anchor="middle" class="node-sub">Quạt · Nồi cơm · Máy giặt</text>
+
+  <rect x="1380" y="685" width="300" height="100" class="box admin"/>
+  <text x="1530" y="721" text-anchor="middle" class="node-title">HƯỚNG DẪN SỬA</text>
+  <text x="1530" y="750" text-anchor="middle" class="node-sub">Quản lý kho kiến thức</text>
+  <text x="1530" y="775" text-anchor="middle" class="node-sub">AI sử dụng để tham khảo</text>
+
+  <rect x="1695" y="685" width="285" height="100" class="box admin"/>
+  <text x="1837" y="721" text-anchor="middle" class="node-title">LƯỢT CHẨN ĐOÁN</text>
+  <text x="1837" y="750" text-anchor="middle" class="node-sub">Theo dõi kết quả</text>
+  <text x="1837" y="775" text-anchor="middle" class="node-sub">và phản hồi người dùng</text>
+
+  <path d="M 1450 610 C 1370 640, 1280 650, 1225 685" class="line"/>
+  <path d="M 1515 610 L 1530 685" class="line"/>
+  <path d="M 1580 610 C 1660 638, 1770 650, 1837 685" class="line"/>
+
+  <rect x="1120" y="860" width="750" height="185" rx="22" fill="#fffaf3" stroke="#edc38e" stroke-width="2"/>
+  <text x="1495" y="907" text-anchor="middle" class="node-title">GHI CHÚ PHẠM VI MVP</text>
+  <text x="1160" y="950" class="node-sub">• Chỉ hỗ trợ 2–3 loại thiết bị trong phiên bản đầu.</text>
+  <text x="1160" y="987" class="node-sub">• Chưa phân tích video hoặc âm thanh.</text>
+  <text x="1160" y="1024" class="node-sub">• Admin sửa kho hướng dẫn, không sửa trực tiếp câu trả lời của AI.</text>
+</svg>

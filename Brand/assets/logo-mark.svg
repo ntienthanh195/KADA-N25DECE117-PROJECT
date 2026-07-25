@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Biểu tượng Trợ Sửa AI</title>
+  <desc id="desc">Ngôi nhà kết hợp kính lúp và dấu kiểm, tượng trưng cho kiểm tra đồ gia dụng an toàn.</desc>
+
+  <rect width="128" height="128" rx="28" fill="#1D4ED8"/>
+
+  <path
+    d="M27 59 64 29l37 30v36a8 8 0 0 1-8 8H35a8 8 0 0 1-8-8V59Z"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <circle cx="61" cy="68" r="22" fill="#CCFBF1" stroke="#FFFFFF" stroke-width="6"/>
+  <path
+    d="m51 68 7 7 14-16"
+    fill="none"
+    stroke="#0F766E"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="m77 84 18 18"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+</svg>

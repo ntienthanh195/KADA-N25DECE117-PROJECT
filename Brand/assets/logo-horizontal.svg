@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 160" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Trợ Sửa AI</title>
+  <desc id="desc">Logo ngang gồm biểu tượng ngôi nhà, kính lúp và dấu kiểm, đi cùng tên Trợ Sửa AI và tagline Hiểu lỗi nhanh, xử lý an toàn.</desc>
+
+  <g transform="translate(16 16)">
+    <rect width="128" height="128" rx="28" fill="#1D4ED8"/>
+
+    <path
+      d="M27 59 64 29l37 30v36a8 8 0 0 1-8 8H35a8 8 0 0 1-8-8V59Z"
+      fill="none"
+      stroke="#FFFFFF"
+      stroke-width="8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <circle cx="61" cy="68" r="22" fill="#CCFBF1" stroke="#FFFFFF" stroke-width="6"/>
+    <path
+      d="m51 68 7 7 14-16"
+      fill="none"
+      stroke="#0F766E"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="m77 84 18 18"
+      fill="none"
+      stroke="#FFFFFF"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <text
+    x="172"
+    y="79"
+    fill="#0F172A"
+    font-family="'Be Vietnam Pro', Inter, Arial, sans-serif"
+    font-size="44"
+    font-weight="700"
+    letter-spacing="-0.8"
+  >
+    Trợ Sửa <tspan fill="#1D4ED8">AI</tspan>
+  </text>
+
+  <text
+    x="174"
+    y="113"
+    fill="#475569"
+    font-family="Inter, Arial, sans-serif"
+    font-size="20"
+    font-weight="400"
+    letter-spacing="0.1"
+  >
+    Hiểu lỗi nhanh, xử lý an toàn.
+  </text>
+</svg>
