@@ -1,36 +1,31 @@
-Exit code: 0
-Wall time: 1.7 seconds
-Output:
-# Solutions â€” Trá»£ Sá»­a AI
+# Solutions — Trợ Sửa AI
 
-Trá»£ Sá»­a AI biáº¿n triá»‡u chá»©ng khÃ³ hiá»ƒu thÃ nh thÃ´ng tin cÃ³ cáº¥u trÃºc: Ä‘iá»u gÃ¬ cÃ³ thá»ƒ Ä‘ang xáº£y ra, má»©c Ä‘á»™ nguy hiá»ƒm, bÆ°á»›c kiá»ƒm tra bÃªn ngoÃ i phÃ¹ há»£p vÃ  khi nÃ o cáº§n liÃªn há»‡ ká»¹ thuáº­t viÃªn.
+Trợ Sửa AI biến triệu chứng khó hiểu thành thông tin có cấu trúc: điều gì có thể đang xảy ra, mức độ nguy hiểm, bước kiểm tra bên ngoài phù hợp và khi nào cần liên hệ kỹ thuật viên.
 
-## Gia Ä‘Ã¬nh cÃ³ tráº» nhá» hoáº·c ngÆ°á»i lá»›n tuá»•i
+## Gia đình có trẻ nhỏ hoặc người lớn tuổi
 
-- Ná»—i Ä‘au: khÃ³ Ä‘Ã¡nh giÃ¡ nguy hiá»ƒm, dá»… hoáº£ng khi cÃ³ mÃ¹i khÃ©t hoáº·c thiáº¿t bá»‹ nÃ³ng.
-- Giáº£i phÃ¡p: cáº£nh bÃ¡o trÆ°á»›c hÆ°á»›ng dáº«n, ngÃ´n ngá»¯ phá»• thÃ´ng, nÃªu rÃµ dáº¥u hiá»‡u pháº£i dá»«ng vÃ  lÆ°u lá»‹ch sá»­ cho cáº£ gia Ä‘Ã¬nh.
-- Káº¿t quáº£: pháº£n á»©ng bÃ¬nh tÄ©nh hÆ¡n vÃ  trÃ¡nh thao tÃ¡c nguy hiá»ƒm.
+- Nỗi đau: khó đánh giá nguy hiểm, dễ hoảng khi có mùi khét hoặc thiết bị nóng.
+- Giải pháp: cảnh báo trước hướng dẫn, ngôn ngữ phổ thông, nêu rõ dấu hiệu phải dừng và lưu lịch sử cho cả gia đình.
+- Kết quả: phản ứng bình tĩnh hơn và tránh thao tác nguy hiểm.
 
-## Sinh viÃªn vÃ  ngÆ°á»i thuÃª trá»
+## Sinh viên và người thuê trọ
 
-- Ná»—i Ä‘au: ngÃ¢n sÃ¡ch háº¡n cháº¿, thiáº¿t bá»‹ cÅ©, khÃ´ng rÃµ model vÃ  khÃ³ bÃ¡o chá»§ nhÃ .
-- Giáº£i phÃ¡p: khÃ´ng báº¯t buá»™c model, chá»‰ táº­p trung kiá»ƒm tra bÃªn ngoÃ i, káº¿t quáº£ gá»n Ä‘á»ƒ gá»­i chá»§ nhÃ ; phÃ¹ há»£p gÃ³i Khá»Ÿi Ä‘áº§u miá»…n phÃ­.
-- Káº¿t quáº£: biáº¿t viá»‡c nÃ o cÃ³ thá»ƒ kiá»ƒm tra an toÃ n vÃ  cÃ³ thÃ´ng tin rÃµ rÃ ng Ä‘á»ƒ bÃ¡o sá»± cá»‘.
+- Nỗi đau: ngân sách hạn chế, thiết bị cũ, không rõ model và khó báo chủ nhà.
+- Giải pháp: không bắt buộc model, tập trung kiểm tra bên ngoài và tạo kết quả gọn để gửi chủ nhà.
+- Kết quả: biết việc nào có thể kiểm tra an toàn và có thông tin rõ ràng để báo sự cố.
 
-## Cá»­a hÃ ng sá»­a chá»¯a Ä‘á»“ gia dá»¥ng
+## Cửa hàng sửa chữa đồ gia dụng
 
-- Ná»—i Ä‘au: khÃ¡ch mÃ´ táº£ thiáº¿u thÃ´ng tin, nhÃ¢n viÃªn pháº£i há»i láº¡i vÃ  khÃ³ chuáº©n hÃ³a tiáº¿p nháº­n.
-- Giáº£i phÃ¡p: form cÃ³ cáº¥u trÃºc, báº£n ghi gá»“m triá»‡u chá»©ng/áº£nh/má»©c rá»§i ro, kho hÆ°á»›ng dáº«n Ä‘Ã£ duyá»‡t vÃ  dashboard.
-- Káº¿t quáº£: nháº­n thÃ´ng tin Ä‘áº§y Ä‘á»§ hÆ¡n vÃ  Æ°u tiÃªn nhanh cÃ¡c trÆ°á»ng há»£p nguy hiá»ƒm.
+- Nỗi đau: khách mô tả thiếu thông tin, nhân viên phải hỏi lại và khó chuẩn hóa tiếp nhận.
+- Giải pháp: form có cấu trúc, bản ghi gồm triệu chứng/ảnh/mức rủi ro, kho hướng dẫn đã duyệt và dashboard.
+- Kết quả: nhận thông tin đầy đủ hơn và ưu tiên nhanh các trường hợp nguy hiểm.
 
-## Quáº£n lÃ½ cÄƒn há»™, kÃ½ tÃºc xÃ¡ vÃ  nhÃ  cho thuÃª
+## Quản lý căn hộ, ký túc xá và nhà cho thuê
 
-- Ná»—i Ä‘au: nhiá»u ngÆ°á»i dÃ¹ng chung thiáº¿t bá»‹, bÃ¡o lá»—i khÃ´ng thá»‘ng nháº¥t vÃ  khÃ³ theo dÃµi thiáº¿t bá»‹ láº·p sá»± cá»‘.
-- Giáº£i phÃ¡p: lÆ°u thiáº¿t bá»‹, áº£nh, thá»i gian vÃ  má»©c rá»§i ro; bá»™ lá»c lá»‹ch sá»­ vÃ  bÃ¡o cÃ¡o tá»•ng há»£p há»— trá»£ báº£o trÃ¬.
-- Káº¿t quáº£: cÃ³ dá»¯ liá»‡u thá»‘ng nháº¥t Ä‘á»ƒ Æ°u tiÃªn sá»± cá»‘ vÃ  phá»‘i há»£p ká»¹ thuáº­t viÃªn.
+- Nỗi đau: nhiều người dùng chung thiết bị, báo lỗi không thống nhất và khó theo dõi thiết bị lặp sự cố.
+- Giải pháp: lưu thiết bị, ảnh, thời gian và mức rủi ro; bộ lọc lịch sử và báo cáo tổng hợp hỗ trợ bảo trì.
+- Kết quả: có dữ liệu thống nhất để ưu tiên sự cố và phối hợp kỹ thuật viên.
 
-## NguyÃªn táº¯c ná»™i dung website
+## Nguyên tắc nội dung website
 
-NÃªu ná»—i Ä‘au cá»¥ thá»ƒ vÃ  káº¿t quáº£ an toÃ n; chá»n tÃ­nh nÄƒng liÃªn quan tá»«ng nhÃ³m; dÃ¹ng tÃ¬nh huá»‘ng Ä‘á»i thÆ°á»ng cÃ³ giá»›i háº¡n rÃµ; má»—i trang cÃ³ má»™t CTA chÃ­nh; luÃ´n Ä‘áº·t cáº£nh bÃ¡o trÆ°á»›c hÆ°á»›ng dáº«n.
-
-
+Nêu nỗi đau cụ thể và kết quả an toàn; chọn tính năng liên quan từng nhóm; dùng tình huống đời thường có giới hạn rõ; mỗi trang có một CTA chính; luôn đặt cảnh báo trước hướng dẫn.
