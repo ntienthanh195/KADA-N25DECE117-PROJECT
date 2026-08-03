@@ -1,0 +1,206 @@
+// Dữ liệu giả lập cho MVP frontend — sẽ được thay bằng API backend thật.
+
+export const SEED_USERS = [
+  {
+    id: "u-demo",
+    name: "Người Dùng Demo",
+    email: "user@trosuaai.vn",
+    password: "user123",
+    role: "user",
+  },
+  {
+    id: "u-admin",
+    name: "Quản Trị Viên",
+    email: "admin@trosuaai.vn",
+    password: "admin123",
+    role: "admin",
+  },
+];
+
+export const SEED_CATEGORIES = [
+  {
+    id: "cat-fan",
+    name: "Quạt điện",
+    description: "Quạt đứng, quạt bàn, quạt treo tường dùng trong gia đình.",
+    active: true,
+    guideCount: 3,
+    updatedAt: "2026-07-20",
+  },
+  {
+    id: "cat-ricecooker",
+    name: "Nồi cơm điện",
+    description: "Nồi cơm điện cơ và nồi cơm điện tử dung tích gia đình.",
+    active: true,
+    guideCount: 3,
+    updatedAt: "2026-07-20",
+  },
+  {
+    id: "cat-kettle",
+    name: "Ấm siêu tốc",
+    description: "Thiết bị thứ ba, chỉ bổ sung khi còn thời gian trong MVP.",
+    active: false,
+    guideCount: 0,
+    updatedAt: "2026-07-22",
+  },
+];
+
+export const SEED_GUIDES = [
+  {
+    id: "g-fan-01",
+    title: "Quạt không quay, có tiếng ù nhẹ",
+    categoryId: "cat-fan",
+    symptoms: "Bật công tắc quạt không quay, nghe tiếng ù, cánh quạt quay tay thấy nặng.",
+    causes: ["Tụ điện khởi động yếu hoặc hỏng", "Bạc đạn/trục khô dầu, kẹt trục", "Cuộn dây động cơ có vấn đề"],
+    risk: "medium",
+    steps: [
+      "Rút phích cắm khỏi ổ điện trước khi thao tác.",
+      "Quay thử cánh quạt bằng tay để kiểm tra độ trơn của trục.",
+      "Quan sát thân quạt xem có mùi khét hoặc vết cháy xém không.",
+    ],
+    stopSigns: ["Mùi khét", "Thân động cơ quá nóng", "Vỏ dây điện nứt, hở lõi đồng"],
+    recommendation: "Có thể tự kiểm tra bước cơ bản; nếu nghi hỏng tụ hoặc cuộn dây, nên mang đến thợ.",
+    source: "Sổ tay bảo dưỡng quạt gia dụng — kho hướng dẫn nội bộ",
+    status: "approved",
+    updatedAt: "2026-07-21",
+  },
+  {
+    id: "g-fan-02",
+    title: "Quạt quay yếu, chậm hơn bình thường",
+    categoryId: "cat-fan",
+    symptoms: "Quạt vẫn quay nhưng yếu ở mọi số, gió ra ít.",
+    causes: ["Khô dầu trục", "Tụ giảm trị số theo thời gian", "Bụi bám nhiều ở lồng và cánh"],
+    risk: "low",
+    steps: [
+      "Rút điện, tháo lồng và vệ sinh cánh quạt.",
+      "Tra dầu chuyên dụng vào trục trước và sau của động cơ.",
+      "Lắp lại, chạy thử từng số và so sánh tốc độ.",
+    ],
+    stopSigns: ["Tia lửa ở công tắc", "Tiếng lạch cạch lớn từ động cơ"],
+    recommendation: "Có thể tự thực hiện bước kiểm tra cơ bản.",
+    source: "Sổ tay bảo dưỡng quạt gia dụng — kho hướng dẫn nội bộ",
+    status: "approved",
+    updatedAt: "2026-07-21",
+  },
+  {
+    id: "g-fan-03",
+    title: "Quạt có mùi khét hoặc bốc khói",
+    categoryId: "cat-fan",
+    symptoms: "Khi chạy có mùi nhựa/dây điện cháy, có thể thấy khói mỏng.",
+    causes: ["Chập cuộn dây động cơ", "Kẹt trục làm động cơ quá tải", "Chạm chập trong công tắc"],
+    risk: "high",
+    steps: ["Ngắt điện ngay lập tức và rút phích cắm.", "Không bật lại thiết bị để thử."],
+    stopSigns: ["Mùi khét", "Khói", "Vỏ thiết bị nóng bất thường"],
+    recommendation: "Không nên tự sửa. Liên hệ kỹ thuật viên hoặc mang đến cửa hàng.",
+    source: "Quy tắc an toàn điện gia dụng — kho hướng dẫn nội bộ",
+    status: "approved",
+    updatedAt: "2026-07-22",
+  },
+  {
+    id: "g-rc-01",
+    title: "Nồi cơm nhảy nút sớm, cơm sống",
+    categoryId: "cat-ricecooker",
+    symptoms: "Nồi chuyển sang chế độ giữ ấm khi cơm chưa chín.",
+    causes: ["Đáy nồi con bị cong, tiếp xúc kém với mâm nhiệt", "Rơ-le nhiệt mòn, ngắt sớm", "Mâm nhiệt bám bẩn"],
+    risk: "low",
+    steps: [
+      "Rút điện, để nồi nguội hẳn.",
+      "Kiểm tra đáy nồi con có cong vênh hoặc dính vật lạ không.",
+      "Lau sạch mâm nhiệt bằng khăn khô.",
+    ],
+    stopSigns: ["Dây nguồn nóng bất thường", "Có tiếng nổ lụp bụp trong thân nồi"],
+    recommendation: "Có thể tự kiểm tra bước cơ bản; nếu do rơ-le nên thay tại cửa hàng.",
+    source: "Hướng dẫn sử dụng nồi cơm điện — kho hướng dẫn nội bộ",
+    status: "approved",
+    updatedAt: "2026-07-21",
+  },
+  {
+    id: "g-rc-02",
+    title: "Nồi cơm không vào điện, đèn không sáng",
+    categoryId: "cat-ricecooker",
+    symptoms: "Cắm điện nhưng đèn báo không sáng, nồi không nóng.",
+    causes: ["Đứt dây nguồn hoặc phích cắm lỏng", "Cầu chì nhiệt bên trong bị đứt", "Hỏng công tắc nguồn"],
+    risk: "medium",
+    steps: [
+      "Rút phích cắm, kiểm tra ổ điện bằng thiết bị khác.",
+      "Quan sát dây nguồn có vết gãy gập, nứt vỏ không.",
+      "Không tự tháo vỏ nồi nếu không có dụng cụ đo phù hợp.",
+    ],
+    stopSigns: ["Dây điện hở lõi", "Vết cháy đen ở phích cắm", "Có mùi khét khi cắm điện"],
+    recommendation: "Kiểm tra dây và ổ cắm được; phần bên trong nên để kỹ thuật viên xử lý.",
+    source: "Hướng dẫn sử dụng nồi cơm điện — kho hướng dẫn nội bộ",
+    status: "approved",
+    updatedAt: "2026-07-22",
+  },
+  {
+    id: "g-rc-03",
+    title: "Nồi cơm rò điện ra vỏ",
+    categoryId: "cat-ricecooker",
+    symptoms: "Chạm vào vỏ nồi thấy tê tê hoặc bút thử điện báo sáng.",
+    causes: ["Chạm chập dây bên trong ra vỏ kim loại", "Ẩm nước lọt vào khoang điện"],
+    risk: "high",
+    steps: ["Ngắt nguồn điện ngay, rút phích cắm bằng vật cách điện nếu cần.", "Không tiếp tục sử dụng thiết bị."],
+    stopSigns: ["Tê tay khi chạm vỏ", "Bút thử điện báo rò", "Ổ cắm nóng chảy"],
+    recommendation: "Không nên tự sửa. Đây là lỗi nguy hiểm, cần kỹ thuật viên kiểm tra.",
+    source: "Quy tắc an toàn điện gia dụng — kho hướng dẫn nội bộ",
+    status: "approved",
+    updatedAt: "2026-07-22",
+  },
+  {
+    id: "g-draft-01",
+    title: "Ấm siêu tốc tự ngắt liên tục (bản nháp)",
+    categoryId: "cat-kettle",
+    symptoms: "Ấm ngắt trước khi nước sôi.",
+    causes: ["Cặn bám cảm biến nhiệt"],
+    risk: "low",
+    steps: ["Đang biên soạn."],
+    stopSigns: [],
+    recommendation: "Đang biên soạn.",
+    source: "",
+    status: "draft",
+    updatedAt: "2026-07-23",
+  },
+];
+
+// Một lượt chẩn đoán mẫu để dashboard/lịch sử không trống khi mới vào.
+export const SEED_DIAGNOSES = [
+  {
+    id: "d-0001",
+    userId: "u-demo",
+    categoryId: "cat-fan",
+    brand: "Senko",
+    model: "L1338",
+    startedWhen: "Khoảng 3 ngày trước",
+    tried: "Đã thử cắm sang ổ điện khác",
+    symptoms: "Bật số 1 quạt không quay, nghe tiếng ù nhẹ, sờ thân quạt hơi ấm.",
+    images: [],
+    createdAt: "2026-07-25T09:30:00",
+    result: {
+      summary: "Quạt có điện vào nhưng động cơ không khởi động được, nhiều khả năng liên quan đến tụ khởi động hoặc trục bị kẹt.",
+      causes: ["Tụ điện khởi động yếu hoặc hỏng", "Bạc đạn/trục khô dầu, kẹt trục", "Cuộn dây động cơ có vấn đề"],
+      risk: "medium",
+      steps: [
+        "Rút phích cắm khỏi ổ điện trước khi thao tác.",
+        "Quay thử cánh quạt bằng tay để kiểm tra độ trơn của trục.",
+        "Quan sát thân quạt xem có mùi khét hoặc vết cháy xém không.",
+      ],
+      stopSigns: ["Mùi khét", "Thân động cơ quá nóng", "Vỏ dây điện nứt, hở lõi đồng"],
+      recommendation: "Có thể tự kiểm tra bước cơ bản; nếu nghi hỏng tụ hoặc cuộn dây, nên mang đến thợ.",
+      sources: ["Sổ tay bảo dưỡng quạt gia dụng — kho hướng dẫn nội bộ"],
+    },
+    feedback: "none", // solved | unsolved | untried | none
+    feedbackNote: "",
+  },
+];
+
+// Nhãn theo Brand/brand.md mục 10: màu luôn đi kèm chữ.
+export const RISK_LABEL = {
+  low: "Nguy cơ thấp",
+  medium: "Cần thận trọng",
+  high: "Nguy hiểm — dừng thao tác",
+};
+export const FEEDBACK_LABEL = {
+  solved: "Đã xử lý được",
+  unsolved: "Chưa xử lý được",
+  untried: "Chưa thử",
+  none: "Chưa phản hồi",
+};
